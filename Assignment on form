@@ -1,0 +1,15 @@
+</head>
+<body>
+    <form WECOME TO NETISENS ICT="">
+        <input type="" placeholder="">
+        <label for="">name:</label>
+        <input id=""
+            age
+          type="text" placeholder="enter your name">
+        <input type="number" placeholder="enter your CVV">
+        <input type="email" placeholder="enter your email">
+        <input type="search" placeholder="search for everything">
+        <button>click</button>
+    </form>
+</body>
+</html>
