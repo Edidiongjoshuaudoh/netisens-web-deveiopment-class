@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #E0F1E7;
+            display: grid;
+            place-items: center;
+            height: 100vh;
+            
+        }
+        form{
+            background-color: #FFFFFF;
+            width: 90%;
+            max-width: 500px;
+            padding: 20px;
+            border-radius: 30px;
+        }
+        .flex{
+            display: flex;
+        }
+        .right{
+            background-color: aquamarine;
+            width: 100%;
+        }
+        .left{
+            background-color: bisque;
+        }
+        .left input{
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>Contact Us</h1>
+        <div class="flex">
+            <div class="left">
+                <label for="">First Name *</label>
+                <input type="text">
+            </div>
+        </div>
+        <div class="left">
+            <label for="">Last Name *</label>
+            <input type="text">
+        </div>
+    </form>
+    
+</body>
+</html>
