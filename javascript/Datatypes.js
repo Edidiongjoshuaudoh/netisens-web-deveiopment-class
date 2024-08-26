@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1 onclick="alert('i am a coder')">Am a yahoo boy</h1>
-    <SCript>
-        // console.log('Hello world');
+  // console.log('Hello world');
 
         // string datetype
         var fruit1 = 'banana'
@@ -39,10 +29,3 @@
         console.log(country)
         
         console.log(fruit)
-
-    </SCript>
-    <!-- <script src="/javascript/test.js"></script>
-    <script src="/javascript/Expressions.js"></script> -->
-    <script src="/javascript/operators.js"></script>
-</body>
-</html>
