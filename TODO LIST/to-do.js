@@ -32,3 +32,8 @@
 // // append to list
 // todolist.appendChild(todoDiv);
 // }
+
+
+// DOM SELECTORS 
+const inputElement = document.getElementById("input");
+const addbutton = 
