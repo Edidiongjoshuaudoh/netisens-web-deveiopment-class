@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count {
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    border: 2px solid #ccc ;
+    background-color: rgb(255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    </style>
+</head>
+<body>
+    <div class="count">
+        <div class="box">0</div>
+    </div>
+    
+    <script>
+        const colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange'];
+const box = document.querySelector('.count');
+function changeColorAndIncrement() {
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    box.style.backgroundColor = randomColor;
+    let currentNumber = parseInt(box.textContent);
+    box.textContent = currentNumber + 1;
+}
+box.addEventListener('click', changeColorAndIncrement);
+
+    </script>
+</body>
+</html>
